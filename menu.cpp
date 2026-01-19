@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include "menu.h"
 using namespace std;
 
 // External data
@@ -72,33 +73,4 @@ void bookTicket() {
     showBill(movies, ticketPrice, movieChoice, finalSeats);
 }
 
-// Main
 
-int main() {
-    initializeSeats(seats);
-    int choice;
-
-    do {
-        cout << "\n1. Show Movies\n2. Book Ticket\n3. Exit\n";
-        cin >> choice;
-
-        switch (choice){
-    case 1:
-        showMovies(movies, showTimes, durations);
-        break;
-    case 2:
-        bookTicket();
-        break;
-    case 3:
-        break;
-    default:
-        cout<<"Invalid number\n";
-        break;
-
-    }
-
-    } while (choice != 3);
-
-    cout << "Thank you!\n";
-    return 0;
-}

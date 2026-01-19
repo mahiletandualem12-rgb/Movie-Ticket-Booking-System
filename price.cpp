@@ -2,9 +2,7 @@
 #include <string>
 using namespace std;
 
-const int MOVIE_COUNT = 5;
-
-int ticketPrice[MOVIE_COUNT] = {200,180,220,210,190};
+int ticketPrice[5] = {200,180,220,210,190};
 
 int getTicketPrice(int *pricePtr, int movieIndex) {
     return *(pricePtr + movieIndex);

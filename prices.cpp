@@ -22,5 +22,5 @@ void showBill(string *moviePtr, int *pricePtr,
     cout << "Total Amount     : "
          << getTicketPrice(pricePtr, movieIndex) * seatCount
          << " Birr\n";
-    cout << "==================================\n";
+    cout << "===============================\n";
 }

@@ -14,6 +14,7 @@ this project is a simple Movie Booking System developed using c++.It allows user
 
 -Our project is divided into five modules. 
 -Each team member is responsible for one module.
+-The main branch contains the all merged modules.
 -GitHub branches are used for individual work.
 -Pull requests are reviewed and merged bt the team leader.
 -The program uses loops,arrays,if-else,and switch statements.
